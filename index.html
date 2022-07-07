@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./style.css" />
+    <title>Learning JavaScript With Pratham</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+
+    <header class="header flex">
+      <h4>Learning JavaScript With Pratham</h4>
+    </header>
+    <section class="intro flex">
+      <h1>JavaScript</h1>
+      <p class="intro-line">
+        High-level, Object-Oriented, Multi-Paradigm programming language.
+      </p>
+      <p class="case-sensitive">It is also case sensitive.</p>
+      <p class="difference">
+        Which means, pratham & Pratham will be treated as two different words in
+        JavaScript.
+      </p>
+    </section>
+
+    <!-- Value & Variables -->
+
+    <section class="valueVariables flex">
+      <h4>Value & Variables</h4>
+      <p class="value">
+        <strong>Value:</strong>It is the smallest unit of information.
+      </p>
+      <p class="variable">
+        <strong>Variable:</strong>To store a value we need a variable.
+      </p>
+      <h5>Declaring A Variable</h5>
+      <p class="v-declaration">
+        While declaraing a variable there are some naming conventions. That you
+        can use only $ , _ , letters and numbers. But numbers can be use after
+        the letters. <strong>For Example:</strong> pratham007.
+      </p>
+      <p class="vNote">
+        <strong>Note:</strong> We also cannot use reserved keywords of
+        JavaScript. But only one keyword can be used i.e
+        <strong>name</strong>.But it's not a good practice to use name.
+      </p>
+    </section>
+
+    <!-- Datatypes -->
+
+    <section class="datatypes flex">
+      <h4>Datatypes</h4>
+      <p class="d-intro">
+        In JavaScript a value is always either a object or a primitive.
+      </p>
+      <div class="types flex">
+        <div class="objects">
+          <h6>Objects</h6>
+          <p>
+            <strong>Syntax:</strong> <br />
+            let me = { <br />
+            name: '2Pac'; <br />
+            song:'Dreams' ; <br />
+            }
+          </p>
+        </div>
+        <div class="primitive">
+          <h6>Primitive</h6>
+          <p>
+            <strong>Syntax:</strong><br />
+            let firstName = 'Eminem'
+          </p>
+        </div>
+      </div>
+
+      <h4 class="primitive-d">There are 7 Primitive Datatypes:</h4>
+      <ul>
+        <li>
+          <strong>Number: </strong>Float point numbers (which means they are
+          always in decimal even if we write 23 i.e 23.00) used to store
+          decimals and integers. <br />
+          <strong>Sytnax:</strong> let MobileNo = "123465790";
+        </li>
+        <li>
+          <strong>String: </strong> Sequesnce of characters, used for text.
+          <br />
+          <strong>Syntax:</strong> let name = "Drake"; <br />
+          <strong>Note:</strong> Always use single or double quotes to declare a
+          string.
+        </li>
+        <li>
+          <strong>Boolean: </strong> Logical type that can be either true or
+          false. <br />
+          <strong>Syntax:</strong> let bike = true; <br />
+        </li>
+        <li>
+          <strong>Undefined: </strong>Value taken by variable that is not yet
+          defined <br />
+          <strong>Syntax:</strong> let bike; <br />
+        </li>
+        <li>
+          <strong>Symbol (ES2015) : </strong>Value i.e unique and cannot be
+          changed. <br />
+        </li>
+        <li>
+          <strong>BigInt: </strong>Larger integers that the numbers type can't
+          hold.<br />
+        </li>
+      </ul>
+      <h4 class="dynamict">JavaScript Dynamic Typing</h4>
+      <p class="dynamict-p">
+        We do not have to manually define the data type of the value
+        <strong>( Value has type )</strong> stored in a variable. Instead data
+        types are determined automatically.
+      </p>
+      <h4 class="typeof">typeof() operator</h4>
+      <p class="typeof-p">
+        It is used to see the type of value.
+        <br />
+        <strong>Syntax: </strong>console.log(typeof(69)); <br />
+        <strong>Result: </strong> It will print number.
+      </p>
+    </section>
+
+    <!-- let,const & var  -->
+    <section class="let flex">
+      <h4>let, const & var</h4>
+
+      <p>
+        <strong>let: </strong>
+        It is used when we want to change the value of variable later in our
+        program.
+        <br />
+        It is also used to declare a Undefined (empty variable).
+      </p>
+      
+      <p>
+        <strong>const: </strong>
+        To declare a variable whose value cannot be changed. <br>
+        Reassigning such a variable leads to <strong>Type Error.</strong> <br>
+        We cannot use const to declare a empty variable.
+    </p>
+    <p>
+        <strong>Note: </strong>
+        Always use const by default, only use let when the value is going to changed in future.
+    </p>
+    <p>
+        <strong>Var: </strong>
+        It is the old way of declaring the variable. Works the same way as let.
+    </p>
+    </section>
+
+        <!-- operators -->
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

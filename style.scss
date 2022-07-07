@@ -1,0 +1,184 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #F5F6F7;
+}
+
+// Global Classes
+.flex {
+    display: flex;
+}
+
+header {
+    height: 38px;
+    background: #0A0A23;
+    justify-content: center;
+    padding-top: 7px;
+
+    h4 {
+        color: white;
+        font-family: 'Lato', sans-serif;
+        font-weight: 500;
+        letter-spacing: 1.3px;
+    }
+}
+
+.intro {
+    align-items: center;
+    padding-top: 30px;
+    flex-direction: column;
+
+    h1 {
+        font-size: 34px;
+        line-height: 2.7;
+    }
+
+    .intro-line {
+        line-height: 2.7;
+        font-size: 21px;
+        letter-spacing: 2px;
+    }
+
+    .case-sensitive {
+        line-height: 2.7;
+        font-size: 21px;
+        letter-spacing: 2px;
+    }
+
+    .difference {
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+}
+
+.valueVariables {
+    align-items: center;
+    padding-top: 30px;
+    flex-direction: column;
+
+    h4 {
+        font-size: 34px;
+        line-height: 2.7;
+    }
+
+    .value {
+        font-size: 14px;
+        letter-spacing: 2px;
+        line-height: 1.5;
+    }
+
+    .variable {
+        font-size: 14px;
+        letter-spacing: 2px;
+        line-height: 1.5;
+    }
+
+    h5 {
+        font-size: 18px;
+        line-height: 2.5;
+
+    }
+
+    .v-declaration {
+        line-height: 1.5;
+
+        width: 650px;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+
+    .vNote {
+        line-height: 1.5;
+        padding-top: 10px;
+        width: 650px;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+
+}
+
+
+.datatypes {
+    align-items: center;
+    padding-top: 30px;
+    flex-direction: column;
+
+    h4 {
+        font-size: 34px;
+        line-height: 2.7;
+    }
+
+    .d-intro {
+        line-break: 1.5;
+        letter-spacing: 2px;
+    }
+
+    .types {
+
+        .objects,
+        .primitive {
+            margin: 0 45px;
+            padding-top: 20px;
+
+            h6 {
+                font-size: 21px;
+                line-height: 1.5;
+                letter-spacing: 2px;
+            }
+
+            p {
+                line-break: 1.5;
+                letter-spacing: 2px;
+            }
+        }
+    }
+
+    .primitive-d {
+        font-size: 24px;
+    }
+
+    ul {
+        li {
+            width: 650px;
+            letter-spacing: 2px;
+            line-height: 1.5;
+            margin: 10px 0;
+        }
+    }
+    .dynamict{
+        font-size: 24px;
+    }
+    .dynamict-p{
+        width: 650px;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+    .typeof{
+        font-size:24px;
+    }
+    .typeof-p{
+        letter-spacing: 2px;
+        line-height: 1.5;
+    }
+}
+
+
+.let{
+    align-items: center;
+    padding-top: 30px;
+    flex-direction: column;
+    h4{
+        font-size: 34px;
+        line-height: 2.7;
+    }
+    p{
+        margin: 10px 0;
+        // width: 480px;
+        letter-spacing: 2px;
+    }
+}

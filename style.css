@@ -1,0 +1,206 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: #F5F6F7;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header {
+  height: 38px;
+  background: #0A0A23;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 7px;
+}
+
+header h4 {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  letter-spacing: 1.3px;
+}
+
+.intro {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.intro h1 {
+  font-size: 34px;
+  line-height: 2.7;
+}
+
+.intro .intro-line {
+  line-height: 2.7;
+  font-size: 21px;
+  letter-spacing: 2px;
+}
+
+.intro .case-sensitive {
+  line-height: 2.7;
+  font-size: 21px;
+  letter-spacing: 2px;
+}
+
+.intro .difference {
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.valueVariables {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.valueVariables h4 {
+  font-size: 34px;
+  line-height: 2.7;
+}
+
+.valueVariables .value {
+  font-size: 14px;
+  letter-spacing: 2px;
+  line-height: 1.5;
+}
+
+.valueVariables .variable {
+  font-size: 14px;
+  letter-spacing: 2px;
+  line-height: 1.5;
+}
+
+.valueVariables h5 {
+  font-size: 18px;
+  line-height: 2.5;
+}
+
+.valueVariables .v-declaration {
+  line-height: 1.5;
+  width: 650px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.valueVariables .vNote {
+  line-height: 1.5;
+  padding-top: 10px;
+  width: 650px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.datatypes {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.datatypes h4 {
+  font-size: 34px;
+  line-height: 2.7;
+}
+
+.datatypes .d-intro {
+  line-break: 1.5;
+  letter-spacing: 2px;
+}
+
+.datatypes .types .objects,
+.datatypes .types .primitive {
+  margin: 0 45px;
+  padding-top: 20px;
+}
+
+.datatypes .types .objects h6,
+.datatypes .types .primitive h6 {
+  font-size: 21px;
+  line-height: 1.5;
+  letter-spacing: 2px;
+}
+
+.datatypes .types .objects p,
+.datatypes .types .primitive p {
+  line-break: 1.5;
+  letter-spacing: 2px;
+}
+
+.datatypes .primitive-d {
+  font-size: 24px;
+}
+
+.datatypes ul li {
+  width: 650px;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  margin: 10px 0;
+}
+
+.datatypes .dynamict {
+  font-size: 24px;
+}
+
+.datatypes .dynamict-p {
+  width: 650px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.datatypes .typeof {
+  font-size: 24px;
+}
+
+.datatypes .typeof-p {
+  letter-spacing: 2px;
+  line-height: 1.5;
+}
+
+.let {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.let h4 {
+  font-size: 34px;
+  line-height: 2.7;
+}
+
+.let p {
+  margin: 10px 0;
+  letter-spacing: 2px;
+}
+/*# sourceMappingURL=style.css.map */
