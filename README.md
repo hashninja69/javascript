@@ -1,2 +1,2 @@
 # javascript
-Learning JavaScript.
+live link:https://hashninja69.github.io/javascript/
